@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Builds, downloads, test inputs and generated reports
+/work/
+/distributions/
+/build/
+/dist/
+/reports/
+/attempts/
+/recovered/
+*.apk
+*.ipa
+*.aab
+*.xcarchive/
+*.log
+
+# Windows/macOS/editor metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Release binaries are attached to GitHub Releases, not committed to source
+*.exe
+*.zip
+*.7z
